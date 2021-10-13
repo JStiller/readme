@@ -110,15 +110,21 @@ const feature = () => {
 - Do we support touch?
 - Do we support keyboard?
 - Do we use events?
-- Do we have a `:hover` state?
-- Do we have a `:focus` state?
-- Do we have an `:in-focus` state?
 - Do we have an `:active` state?
-- Do we have a `readonly` state?
-- Do we have a `disabled` state?
-- Do we have a `blurred` state?
-- Do we have an `invalid` state?
-- Do we have a `selected` or `checked` state?
+- Do we have a `:focus` state?
+- Do we have an `:focus-within` state?
+- Do we have an `:focus-visible` state?
+- Do we have a `:hover` state?
+- Do we have a `:target` state?
+- Do we have a `:visited` state?
+- Do we have an `:placeholder-shown` state?
+- Do we have an `:indeterminate` state?
+- Do we have an `:required` state?
+- Do we have a `:read-only` state?
+- Do we have an `:enabled` or `:disabled` state?
+- Do we have an `:in-range` or `:out-of-range` state?
+- Do we have an `:valid` or `:invalid` state?
+- Do we have a `:checked` state?
 - Do we have an `animation`?
 
 ### How do we expose errors?
