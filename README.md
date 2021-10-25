@@ -1,4 +1,5 @@
 # readme
+
 A collection of readme snippets
 
 ## GIT
@@ -19,14 +20,14 @@ Possible `types` are for example
 
 First we have to change to the desired branch where the commits are located.
 
-```
+```text
 git checkout {branch name}
 git switch {branchname}
 ```
 
 Then we can squash the commits by doing an interative rebase.
 
-```
+```text
 git rebase -i {target}
 ```
 
@@ -42,15 +43,43 @@ The source code should be documented. We use standardised annotations for this p
 
 ### Annotation sources
 
-- JSDoc http://usejsdoc.org/
-- TSDoc https://tsdoc.org/
-- PHPDoc https://docs.phpdoc.org/
+- JSDoc <http://usejsdoc.org/>
+- TSDoc <https://tsdoc.org/>
+- PHPDoc <https://docs.phpdoc.org/>
+
+### Versioning
+
+We will use semantic versioning, as described by semver.org.
+
+```text
+Major.Minor.Patch
+```
+
+#### Major
+
+Major version when you make incompatible API changes
+
+#### Minor
+
+Minor version when you add functionality in a backwards compatible manner
+
+#### Patch
+
+Patch version when you make backwards compatible bug fixes.
+
+@see <https://semver.org/spec/v2.0.0.html>
+
+### Changelog
+
+We will use a changelog, as described by keep a changelog.
+
+@see <https://keepachangelog.com/en/1.0.0/>
 
 ### Architecture Decision Records
 
 We will use Architecture Decision Records, as described by Michael Nygard.
 
-@see https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
+@see <https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions>
 
 ### Directory structure
 
@@ -143,9 +172,9 @@ Components should have a general and aligned way to report errors. When a compon
 
 ### ITCSS
 
-@see https://csswizardry.com/about/
+@see <https://csswizardry.com/about/>
 
-@see https://itcss.io/
+@see <https://itcss.io/>
 
 ```blank
     ----------------- Range ------------------
@@ -175,7 +204,7 @@ s t               \____________/
 
 ### BEM
 
-@see http://getbem.com/
+@see <http://getbem.com/>
 
 ```blank
 {Block}__{Element}--{Modifier}
