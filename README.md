@@ -46,6 +46,12 @@ The source code should be documented. We use standardised annotations for this p
 - TSDoc https://tsdoc.org/
 - PHPDoc https://docs.phpdoc.org/
 
+### Architecture Decision Records
+
+We will use Architecture Decision Records, as described by Michael Nygard.
+
+@see https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
+
 ### Directory structure
 
 ```blank
