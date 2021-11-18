@@ -121,6 +121,8 @@ const feature = () => {
 
 ```blank
 
+       .  Design Tokens
+
        ◯  Atoms
 
       ◯
