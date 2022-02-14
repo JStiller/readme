@@ -142,7 +142,39 @@ const feature = () => {
 
 ```
 
-### Requirements
+### How does the component behave?
+
+How does the component behave on different viewports?
+
+Example
+
+```plain
+Desktop
+ ___    ___    ___
+| 1 |  | 2 |  | 3 |
+|___|  |___|  |___|
+
+Tablet
+ ___    ___      __________
+| 1 |  | 2 |    |     1    |
+|___|  |___|    |__________|
+ __________  or  ___    ___  or ..
+|     3    |    | 2 |  | 3 |
+|__________|    |___|  |___|
+
+Smartphone
+ ___      ___
+| 1 |    | 3 |
+|___|    |___|
+ ___      ___
+| 2 | or | 2 | or ..
+|___|    |___|
+ ___      ___
+| 3 |    | 1 |
+|___|    |___|
+```
+
+#### Checklist
 
 - Do we support touch?
 - Do we support keyboard?
@@ -163,6 +195,7 @@ const feature = () => {
 - Do we have an `:valid` or `:invalid` state?
 - Do we have a `:checked` state?
 - Do we have an `animation`?
+- Do we defined a `reduced-motion`?
 
 ### How do we expose errors?
 
